@@ -19,7 +19,7 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
 git remote add origin https://github.com/sh3ngsh3ng/v-day-proj-v2.git
-git push --set-upstream gh-pages
+git push --set-upstream origin gh-pages
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git main:gh-pages
