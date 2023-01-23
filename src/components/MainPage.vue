@@ -22,6 +22,7 @@
     data: function () {
       return {
         currentSlide: 0,
+        loading: true
       };
     },
     components: {
