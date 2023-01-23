@@ -37,7 +37,6 @@
     },
     methods: {
       changeCurrentSlide: function (evt) {
-        console.log("buttonsets called", evt);
         this.$emit("change-slide", evt);
       },
     },
@@ -46,11 +45,11 @@
 
 <style scoped>
   .button-sets-1 {
-    position: absolute;
     display: flex;
     width: 100%;
+    height: 5%;
     justify-content: space-around;
-    top: 73%;
+    align-items: center;
   }
 
   .button-sets-2 {
@@ -59,7 +58,7 @@
 
   @media only screen and (min-width: 375px) {
     .button-sets-1 {
-      top: 67.5%;
+      height: 10%;
     }
   }
 

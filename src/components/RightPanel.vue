@@ -35,13 +35,13 @@
 <style scoped>
   #right-panel {
     width: 100%;
-    height: 25%;
+    height: 20%;
     background-color: rgb(56, 54, 54);
   }
 
   @media only screen and (min-width: 375px) {
     #right-panel {
-      height: 30%;
+      height: 25%;
     }
   }
 

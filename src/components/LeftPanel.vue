@@ -45,7 +45,7 @@
 
   @media only screen and (min-width: 375px) {
     #left-panel {
-      height: 70%;
+      height: 65%;
     }
   }
 

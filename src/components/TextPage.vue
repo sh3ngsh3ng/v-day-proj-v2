@@ -8,44 +8,49 @@
 </template>
 
 <script>
-export default {
-  props: ["text", "header"],
-};
+  export default {
+    props: ["text", "header"],
+  };
 </script>
 
 <style scoped>
-/* Lobster */
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-/* Great Vibes */
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+  /* Lobster */
+  @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+  /* Great Vibes */
+  @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
-/* Allura */
-@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+  /* Allura */
+  @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 
-/* Amatic SC */
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+  /* Amatic SC */
+  @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 
-/* Alex Brush */
-@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
-.text-page-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  /* Alex Brush */
+  @import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
 
-.inner-div {
-  margin-top: 5vh;
-}
+  .text-page-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.main-text {
-  margin: 0;
-}
+  .inner-div {
+    margin-top: 5vh;
+  }
 
-p {
-  color: white;
-  text-align: center;
-  font-family: "Amatic SC";
-  font-size: 20px;
-  padding: 5px;
-}
+  .main-text {
+    margin: 0;
+  }
+
+  .header {
+    margin-top: 0;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+    font-family: "Amatic SC";
+    font-size: 20px;
+    padding: 5px;
+  }
 </style>
