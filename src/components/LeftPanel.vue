@@ -37,7 +37,7 @@
   };
 </script>
 
-<style scoped>
+<style>
   #left-panel {
     width: 100%;
     height: 75%;
