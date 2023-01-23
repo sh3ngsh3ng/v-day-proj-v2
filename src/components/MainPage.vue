@@ -21,7 +21,6 @@
     name: "MainPage",
     data: function () {
       return {
-        loading: true,
         currentSlide: 0,
       };
     },

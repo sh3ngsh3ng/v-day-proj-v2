@@ -18,10 +18,6 @@
                 musicPlaying: false
             }
         },
-        mounted: function () {
-            console.log("called")
-            // this.$refs.audioPlayer.play();
-        },
         methods: {
             playMusic: function () {
                 if (this.musicPlaying) {
