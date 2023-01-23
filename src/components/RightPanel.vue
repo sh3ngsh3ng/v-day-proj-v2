@@ -1,8 +1,8 @@
 <template>
   <div id="right-panel">
     <Transition name="fade">
-      <TextPage v-if="currentSlide == 0" header="To my love..."
-        text="I never believed in fairy tales until I met you. You are my happily ever after and I will love you forever." />
+      <TextPage v-if="currentSlide == 0"
+        text="To my love...I never believed in fairy tales until I met you. You are my happily ever after and I will love you forever." />
     </Transition>
     <Transition name="fade">
       <TextPage v-if="currentSlide == 1" text="I fall in love with you every day all over again." />

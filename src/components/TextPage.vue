@@ -1,7 +1,6 @@
 <template>
   <div class="text-page-div">
     <div class="inner-div">
-      <p class="header">{{ header }}</p>
       <p class="main-text">{{ text }}</p>
     </div>
   </div>
@@ -9,7 +8,7 @@
 
 <script>
   export default {
-    props: ["text", "header"],
+    props: ["text"],
   };
 </script>
 
@@ -35,15 +34,11 @@
   }
 
   .inner-div {
-    margin-top: 5vh;
+    margin-top: 3vh;
   }
 
   .main-text {
     margin: 0;
-  }
-
-  .header {
-    margin-top: 0;
   }
 
   p {

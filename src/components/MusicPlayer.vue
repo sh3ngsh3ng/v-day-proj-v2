@@ -52,6 +52,6 @@
     }
 
     .sound-icon {
-        font: 100px
+        color: rgba(56, 54, 54, 0.445)
     }
 </style>
