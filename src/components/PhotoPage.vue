@@ -5,22 +5,23 @@
 </template>
 
 <script>
-export default {
-  props: ["imageUrl"],
-};
+  export default {
+    props: ["imageUrl"],
+  };
 </script>
 
 <style scoped>
-.photo-page-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
+  .photo-page-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
 
-img {
-  max-width: 90%;
-  height: auto;
-  border-radius: 20px;
-}
+  img {
+    max-width: 90%;
+    max-height: 90%;
+    height: auto;
+    border-radius: 20px;
+  }
 </style>

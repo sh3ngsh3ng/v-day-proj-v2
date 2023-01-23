@@ -44,7 +44,7 @@
 
   .bg-image {
     position: absolute;
-    background-image: url("../assets/sample4.jpg");
+    background-image: url("../assets/bg-photo.jpg");
     background-position: center;
     background-size: cover;
     overflow: hidden;
