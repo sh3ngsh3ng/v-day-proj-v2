@@ -7,7 +7,7 @@
       <div class="bg-image"></div>
       <MusicPlayer />
     </div>
-    <div id="loading-div" v-else><pulse-loader></pulse-loader></div>
+    <div id="loading-div" v-else><pulse-loader color="pink"></pulse-loader></div>
   </Transition>
 </template>
 
@@ -50,6 +50,7 @@
     width: 100vw;
     height: 100vh;
   }
+
 
   #loading-div {
     display: flex;
