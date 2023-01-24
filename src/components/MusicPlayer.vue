@@ -30,6 +30,12 @@
         },
         components: {
             "v-icon": OhVueIcon
+        },
+        props: ["toggleMusic"],
+        watch: {
+            toggleMusic: function () {
+                this.playMusic()
+            }
         }
 
     };

@@ -45,7 +45,7 @@
     color: white;
     text-align: center;
     font-family: "Amatic SC";
-    font-size: 20px;
+    font-size: 25px;
     padding: 5px;
   }
 </style>

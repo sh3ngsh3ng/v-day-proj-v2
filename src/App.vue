@@ -1,24 +1,32 @@
 <template>
   <MainPage v-if="loginSuccess" />
   <LoginPage v-else @login-success="loginUser" />
+  <MusicPlayer :toggleMusic="this.toggleMusic" />
 </template>
 
 <script>
   import MainPage from "./components/MainPage"
   import LoginPage from "./components/LoginPage"
+  import MusicPlayer from "./components/MusicPlayer"
   export default {
     name: 'App',
     components: {
-      MainPage, LoginPage
+      MainPage, LoginPage, MusicPlayer
     },
     data: function () {
       return {
-        loginSuccess: false
+        loginSuccess: false,
+        toggleMusic: false
       }
     },
     methods: {
       loginUser: function (evt) {
         this.loginSuccess = evt
+      }
+    },
+    watch: {
+      loginSuccess() {
+        this.toggleMusic = true
       }
     }
   }

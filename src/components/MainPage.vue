@@ -5,7 +5,6 @@
       <ButtonSets @change-slide="changeCurrentSlide" />
       <RightPanel v-bind:currentSlide="this.currentSlide" />
       <div class="bg-image"></div>
-      <MusicPlayer />
     </div>
     <div id="loading-div" v-else><pulse-loader color="pink"></pulse-loader></div>
   </Transition>
@@ -15,7 +14,6 @@
   import LeftPanel from "./LeftPanel.vue";
   import RightPanel from "./RightPanel.vue";
   import ButtonSets from "./ButtonSets.vue";
-  import MusicPlayer from "./MusicPlayer.vue";
   import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
   export default {
     name: "MainPage",
@@ -29,7 +27,6 @@
       LeftPanel,
       RightPanel,
       ButtonSets,
-      MusicPlayer,
       PulseLoader
     },
     methods: {
